@@ -1,8 +1,16 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-image: url("7.-2_NIKELEDbasketballcourt.jpg");
+  background-image: url("background-image.jpg");
   background-size: cover;
+}
+
+/* Layout */
+
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -35,15 +43,13 @@ body {
 .teams-row {
   display: flex;
   flex-direction: row;
-  /* Aligns .team divs in a row */
   justify-content: space-around;
-  /* Space between the teams */
   gap: 20px;
-  /* Space between the two teams */
   width: 100%;
   max-width: 800px;
-  /* Optional: control overall width */
 }
+
+/* typography */
 
 .team h3 {
   font-size: 50px;

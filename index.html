@@ -17,39 +17,42 @@
 </head>
 
 
-<div class="container">
-  <div class="teams-row">
-    <div class="team">
-      <h3>HOME</h3>
-      <div class="home-score" id="home">0</div>
-      <div class="buttons">
-        <button onclick="homeAdd1()">+1</button>
-        <button onclick="homeAdd2()">+2</button>
-        <button onclick="homeAdd3()">+3</button>
+<div class="big-container">
+      <div class="container">
+        <div class="teams-row">
+          <div class="team">
+            <h3>HOME</h3>
+            <div class="home-score" id="home">0</div>
+            <div class="buttons">
+              <button onclick="homeAdd1()">+1</button>
+              <button onclick="homeAdd2()">+2</button>
+              <button onclick="homeAdd3()">+3</button>
+            </div>
+      
+            <button class="reset" onclick="homeResetGame()">
+              <i class="fa-solid fa-rotate-left"></i>
+            </button>
+          </div>
+      
+          <div class="team">
+            <h3>AWAY</h3>
+            <div class="guest-score" id="guest">0</div>
+            <div class="buttons">
+              <button onclick="guestAdd1()">+1</button>
+              <button onclick="guestAdd2()">+2</button>
+              <button onclick="guestAdd3()">+3</button>
+            </div>
+      
+            <button class="reset" onclick="guestResetGame()">
+              <i class="fa-solid fa-rotate-left"></i>
+            </button>
+          </div>
+        </div>
+
+        <div>
+            <button class="end-game-btn" onclick="endGame()">END THE GAME</button>
+        </div>
       </div>
-
-      <button class="reset" onclick="homeResetGame()">
-        <i class="fa-solid fa-rotate-left"></i>
-      </button>
-    </div>
-
-    <div class="team">
-      <h3>AWAY</h3>
-      <div class="guest-score" id="guest">0</div>
-      <div class="buttons">
-        <button onclick="guestAdd1()">+1</button>
-        <button onclick="guestAdd2()">+2</button>
-        <button onclick="guestAdd3()">+3</button>
-      </div>
-
-      <button class="reset" onclick="guestResetGame()">
-        <i class="fa-solid fa-rotate-left"></i>
-      </button>
-    </div>
-  </div>
-
-
-  <button class="end-game-btn" onclick="endGame()">END THE GAME</button>
 </div>
 
 
