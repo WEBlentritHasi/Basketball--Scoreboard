@@ -1,4 +1,4 @@
-# Basketball Scoreboard Countere
+# Basketball Scoreboard Counter
 
 ## Tools
 Made with HTML, CSS and JavaScript
